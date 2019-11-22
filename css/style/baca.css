@@ -1,0 +1,22 @@
+body{
+    background-color: #d81b60;
+}
+hr{
+    width: 120px;
+}
+h5{
+    font-family: Sans NS;
+}
+textarea{
+    height: 500px;
+    padding: 10px;
+}
+.back{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+@media (min-width: 992px){
+    .card-panel{
+        margin-right: -30px;
+    }
+}

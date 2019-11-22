@@ -1,0 +1,126 @@
+footer{
+	background-color: #d81b60;
+	color: whitesmoke;
+	overflow: hidden;
+}
+.hr{
+	width: 120px;
+}
+.navbar-fixed ul li a:hover{
+	border-bottom: 1px solid white;
+}
+.card-panel{
+	border-radius: 10px;
+}
+.card-panel ul li{
+	display: inline-block;
+	margin-left: 10px; 
+}
+.card{
+	padding: 15px;
+	border-radius: 10px;
+}
+.h44{
+	font-family: Sans MS;
+}
+.h4{
+	margin-top: -10px;
+	font-family: Sans MS;
+}
+.judul{
+	font-weight: bold;
+}
+.active{
+	border-bottom: 1px solid white;
+}
+.h3{
+	font-family: Comic Sans MS;
+	font-size: 30px;
+	margin-top: -10px;
+}
+.sidenav{
+	background-color: #efefef;
+}
+.ul2{
+	margin-left: 40px !important;
+}
+.ul3{
+	margin-left: 87px !important;	
+}
+.ul4{
+	margin-left: 113px !important;
+}
+.ul5{
+	margin-left: 45px !important;
+}
+.ul6{
+	margin-left: 38px !important;
+}
+.ul7{
+	margin-left: 83px !important;
+}
+.ul8{
+	margin-left: 110px !important;
+}
+#icon{
+	font-size: 20px;
+	margin-right: 5px;
+}
+.brand-logo{
+	margin-left: 20px;
+}
+.brand-logo img{
+	width: 25px;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+.brand-logo span{
+	float: right;
+}
+textarea{
+	height: 150px;
+	padding: 5px;
+	border-radius: 5px;
+}
+@media only screen and (max-width: 480px){
+	.row{
+		padding: 15px;
+	}
+	#desc{
+		margin-bottom: 25px;
+	}
+	.brand-logo{
+		margin-left: 20px;
+	}
+	.brand-logo img{
+		width: 25px;
+		margin-top: 7px;
+		margin-right: 10px;
+	}
+	.brand-logo span{
+		float: right;
+		margin-top: -55px;
+		margin-left: 30px;
+	}
+}
+
+@media(min-width: 992px){
+	.navbar-fixed ul li a{
+		text-transform: uppercase;
+	}
+	.caption h3{
+		font-size: 45px !important;
+	}
+	.brand-logo img{
+		width: 50px;
+		float: left;
+		margin-top: 7px;
+		margin-right: 10px;
+	}
+	.brand-logo span{
+		float: right;
+	}
+	footer{
+		margin-top: 69px;
+	}
+}

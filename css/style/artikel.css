@@ -1,0 +1,89 @@
+hr{
+	width: 120px;
+}
+footer{
+	background-color: #d81b60;
+	color: whitesmoke;
+	overflow: hidden;
+}
+#title{
+	font-family: Cooper black;
+}
+#icon{
+	font-size: 20px;
+	margin-right: 5px;
+}
+#carian{
+	margin-top: -40px;
+}
+.navbar-fixed ul li a:hover{
+	border-bottom: 1px solid white;
+}
+.active{
+	border-bottom: 1px solid white;
+
+}
+.card-image img{
+	height: 150px;
+}
+.card-content{
+	height: 185px;
+}
+.sidenav{
+	background-color: #efefef;
+}
+.contaner{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.card{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.card-title{
+	font-size: 18px !important;
+}
+#baca:hover{
+	transition: .3s;
+	color: #f936af;
+}
+.brand-logo{
+	margin-left: 20px;
+}
+.brand-logo img{
+	width: 25px;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+.brand-logo span{
+	float: right;
+}
+@media only screen and (max-width: 480px){
+	.brand-logo{
+		margin-left: 20px;
+	}
+	.brand-logo img{
+		width: 25px;
+		margin-top: 7px;
+		margin-right: 10px;
+	}
+	.brand-logo span{
+		float: right;
+		margin-top: -55px;
+		margin-left: 30px;
+	}
+}
+@media (min-width: 992px) {
+	.navbar-fixed ul li a{
+		text-transform: uppercase;
+	}
+	.brand-logo img{
+		width: 50px;
+		float: left;
+		margin-top: 7px;
+		margin-right: 10px;
+	}
+	.brand-logo span{
+		float: right;
+	}
+}

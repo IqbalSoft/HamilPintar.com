@@ -1,0 +1,32 @@
+body{
+    background-color: #e2467d;
+}
+h4{
+    font-family: Sans Ns
+}
+.card{
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+hr{
+    width: 120px;
+}
+#box img{
+    border-radius: 10px;
+}
+@media only screen and (max-width: 480px){
+    #box img{
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+}
+@media (min-width: 992px){
+    #box{
+        margin-left: 150px;
+    }
+    #box img{
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+}

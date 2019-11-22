@@ -1,0 +1,41 @@
+body{
+    padding: 10px;
+    background-color: #d81b60;
+}
+h4,p{
+    color: white;
+}
+#icon{
+	font-size: 20px;
+	margin-right: 5px;
+}
+#upt{
+    height: 40px;
+}
+hr{
+    width: 50px;
+}
+.card{
+    padding: 10px;
+    border-radius: 10px;
+}
+textarea{
+    border-radius: 5px;
+    padding: 10px;
+    height: 200px;
+}
+@media only screen and (max-width: 480px ){
+    .img{
+        width: 100px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+    }
+}
+@media(min-width: 992px){
+    #desc{
+        margin-left: 50px;
+    }
+    .img{
+        margin-left: 80px;
+    }
+}

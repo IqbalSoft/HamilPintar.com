@@ -1,0 +1,14 @@
+body{
+    background-color: #d81b60;
+}
+.card-panel ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.desc{
+    color: whitesmoke;
+}
+.back{
+    margin-left: 10px;
+    margin-top: 10px;
+}

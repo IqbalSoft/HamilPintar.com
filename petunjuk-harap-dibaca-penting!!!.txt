@@ -1,0 +1,11 @@
+assalamualaikum.
+
+
+1) Sebelum menggunakan web harap di import dulu databasenya
+   database nya ada di folder "db" .
+
+2) untuk masuk ke halaman admin ketikan di url(localhost/hamilpintar.com/admin/)
+   
+   username : hamilpintar
+   password : hamilpintar123
+	

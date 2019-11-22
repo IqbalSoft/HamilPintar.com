@@ -1,0 +1,78 @@
+#icon{
+	font-size: 20px;
+	margin-right: 5px;
+}
+hr{
+    width: 50px;
+}
+.navbar-fixed ul li a:hover{
+	border-bottom: 1px solid white;
+}
+.hapus{
+    color: red;
+}
+#img{
+    height: 150px;
+}
+.aksi{
+    padding-left: 30px;
+}
+.active{
+	border-bottom: 1px solid white;
+}
+.box{
+    padding: 10px;
+}
+.contaner{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-panel ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.card{
+    height: 400px;
+    border-radius: 10px;
+}
+#btn{
+    margin-left: 10px;
+}
+#carian{
+    margin-top: -40px;
+}
+@media only screen and (max-width: 480px){
+    .card-panel{
+        height: 100px;
+    }
+    .card-panel ul {
+        margin-top: -5px;
+    }
+    #mail{
+        width: 200px;
+    }
+    .aksi{
+        padding-top: 10px;
+        padding-left: 80px;
+    }
+}
+@media (min-width: 992px){
+    .navbar-fixed ul li a{
+		text-transform: uppercase;
+    }
+    .isi{
+        border-right: 2px solid black;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    #mail{
+        width: 400px;
+    }
+    .card-panel{
+        height: 50px;
+    }
+    .card-panel ul{
+        margin-top: -20px;
+    }
+}

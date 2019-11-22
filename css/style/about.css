@@ -1,0 +1,104 @@
+body{
+	background-image: url(../../img/about/bg-mobile.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+hr{
+	width: 120px;
+}
+h4{
+	margin-top: -10px;
+	font-family: Sans NS;
+}
+#icon{
+	font-size: 20px;
+	margin-right: 5px;
+}
+.sidenav{
+	background-color: #efefef;
+}
+.img{
+	border-radius: 10px;
+}
+#isi{
+	margin-top: 50px;
+}
+.navbar-fixed ul li a:hover{
+	border-bottom: 1px solid white;
+}
+.active{
+	border-bottom: 1px solid white;
+}
+
+.brand-logo{
+	margin-left: 20px;
+}
+footer{
+	background-color: #d81b60;
+	overflow: hidden;
+}
+footer p{
+	color: whitesmoke;
+}
+.brand-logo img{
+	width: 25px;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+.brand-logo span{
+	float: right;
+}
+#logo img{
+	border-radius: 10px;
+	box-shadow: 1px 2px 2px rgba(0,0,0,.5);
+}
+.card-panel{
+	border-radius: 10px;
+}
+@media only screen and (max-width: 480px){
+	.brand-logo{
+		margin-left: 20px;
+	}
+	.brand-logo img{
+		width: 25px;
+		margin-top: 7px;
+		margin-right: 10px;
+	}
+	.brand-logo span{
+		float: right;
+		margin-top: -55px;
+		margin-left: 30px;
+	}
+	#logo img{
+		width: 170px;
+		margin-left: 100px;
+	}
+}
+@media(min-width: 992px){
+	body{
+		background-image: url(../../img/about/bg-dekstop.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.navbar-fixed ul li a{
+		text-transform: uppercase;
+	}
+	.caption h3{
+		font-size: 45px !important;
+	}
+	.brand-logo img{
+		width: 50px;
+		float: left;
+		margin-top: 7px;
+		margin-right: 10px;
+	}
+	.brand-logo span{
+		float: right;
+	}
+	#logo img{
+		margin-left: 150px;
+	}
+	footer{
+		margin-top: 196px;
+	}
+}

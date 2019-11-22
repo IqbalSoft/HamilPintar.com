@@ -1,0 +1,164 @@
+footer{
+	background-color: #d81b60;
+	color: whitesmoke;
+	overflow: hidden;
+}
+#lebih{
+	font-size: 17px;
+}
+.sidenav{
+	background-color: #efefef;
+}
+#icon{
+	font-size: 20px;
+	margin-right: 5px;
+}
+#lebih:hover{
+	transition: .3s;
+	color: #f936af;
+}
+#baca:hover{
+	transition: .3s;
+	color: #f936af;
+}
+.slides img{
+	height: 300px;
+	width: auto;
+}
+.slides h3,
+.slides h5{
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+    font-size: 20px;
+}
+.testi h3{
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+}
+hr{
+	width: 80px;
+}
+.parallax-container{
+	margin-top: 50px;
+	height: 30%;
+}
+.parallax img{
+	background-size: cover;
+	filter: grayscale(1);
+	opacity: .8 !important;
+}
+.slides h3,
+.slides h5{
+	color: #fafafa;
+	text-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
+.foto{
+	border-radius: 10px;
+}
+.navbar-fixed ul li a:hover{
+	border-bottom: 1px solid white;
+}
+.parag{
+	color: white;
+	text-shadow: 1px 2px 5px rgba(0,0,0, .5);
+}
+.active{
+	border-bottom: 1px solid white;
+}
+.card-image img{
+	height: 150px;
+}
+.card-content{
+	height: 185px;
+}
+.card{
+	height: 370px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.caption h3,h5{
+	color: #fafafa !important;
+	font-weight: 350;
+	font-size: 35px;
+	text-outline: 1px solid black;
+	text-shadow: 1px 2px 2px rgba(0,0,0,.6) !important;
+}
+#h5 h5{
+	padding-top: 15px;
+	font-size: 25px;
+
+}
+#h5 e{
+	margin-top: 110px !important;
+}
+#more{
+	margin-top: 160px;
+	display: block;
+}
+.brand-logo{
+	margin-left: 20px;
+}
+.brand-logo img{
+	width: 25px;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+.brand-logo span{
+	float: right;
+}
+@media only screen and (max-width: 480px){
+	.brand-logo{
+		margin-left: 20px;
+	}
+	.brand-logo img{
+		width: 25px;
+		margin-top: 7px;
+		margin-right: 10px;
+	}
+	.brand-logo span{
+		float: right;
+		margin-top: -55px;
+		margin-left: 30px;
+	}
+	.card-title{
+		font-size: 18px !important;
+	}
+	.parallax-container{
+		background-image: url(../../img/testimoni/bg-testi.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	#h5 h5{
+		padding-top: 0px !important;
+		font-size: 25px;
+	}
+	#h5 e{
+		margin-top: 0 !important;
+	}
+}
+@media (min-width: 992px) {
+	.slides h3,
+	.slides h5{
+		text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+	    font-size: 30px;
+	}
+	.brand-logo img{
+		width: 50px;
+		float: left;
+		margin-top: 7px;
+		margin-right: 10px;
+	}
+	.brand-logo span{
+		float: right;
+	}
+	.card-image{
+		height: 150px;
+	}
+	.card-content{
+		height: 150px;
+	}
+	.navbar-fixed ul li a{
+		text-transform: uppercase;
+	}
+	.caption h3{
+		font-size: 45px !important;
+	}
+}
